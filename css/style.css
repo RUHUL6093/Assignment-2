@@ -1,0 +1,123 @@
+body {
+    font-family: serif;
+}
+
+.top {
+    background-color: antiquewhite;
+}
+
+.logo img {
+    height: 60px;
+    width: 300px;
+}
+
+.n-list ul li {
+    padding: 10px 20px;
+}
+
+.n-list ul li a {
+    color: black;
+}
+
+.texth1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: darkorange;
+}
+
+.texth2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: navy;
+}
+
+.texth4 {
+    font-weight: bold;
+}
+
+.fl {
+    margin-top: 70px;
+    float: left;
+    display: block;
+}
+
+.mid::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.mid img {
+    width: 80%;
+    height: 450px;
+    float: left;
+}
+
+.middle {
+    height: 700px;
+}
+
+.box-item::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.box-item {
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 2px #f7f1f1;
+    border-radius: 10px;
+}
+
+.image img {
+    width: 60%;
+    height: 80px;
+}
+
+.box img {
+    height: 300px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: coral!important;
+}
+
+.price {
+    display: inline-block;
+    margin-right: 48px;
+    color: coral;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.bu .h {
+    width: 40%;
+    float: left;
+    color: coral;
+}
+
+.bu .ab {
+    width: 60%;
+    float: left;
+    background-color: coral;
+    border-radius: 10px;
+}
+
+.ab a {
+    color: white;
+}
+
+.crd {
+    width: 18rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.bd {
+    font-weight: bold;
+}

@@ -1,0 +1,22 @@
+@media only screen and (max-width: 992px) {
+    .box-item {
+        width: 30%;
+        margin: 30px;
+        padding: 0px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .box-item:nth-child(1) {
+        width: 50%;
+    }
+    .box-item:nth-child(2) {
+        width: 50%;
+    }
+    .box-item:nth-child(3) {
+        width: 100%;
+        display: block;
+    }
+    .box2 {}
+}
